@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(61, 61, 61);
+}
+article {
+  background-color: rgb(104, 231, 104);
+  width: 350px;
+  height: 150px;
+  color: green;
+}

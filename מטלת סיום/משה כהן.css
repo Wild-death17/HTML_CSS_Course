@@ -1,0 +1,199 @@
+* {
+  margin: 1px auto;
+  padding: 0px auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: tan;
+}
+#wrapper {
+  width: 90%;
+  background-color: whitesmoke;
+}
+a {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+}
+aside a:hover,
+nav a:hover {
+  color: black;
+  background-color: aliceblue;
+}
+header {
+  height: 120px;
+  position: relative;
+  background-color: black;
+}
+header #Logo {
+  left: 10%;
+  width: 150px;
+  height: 110px;
+  position: absolute;
+  background-image: url(site-img/Site-Logo.jpg);
+}
+header #Nicon {
+  left: 0px;
+  bottom: 0px;
+  display: none;
+  position: absolute;
+}
+#Nicon div {
+  width: 40px;
+  height: 5px;
+  display: block;
+  margin-bottom: 5px;
+  background-color: aliceblue;
+}
+nav {
+  left: 25%;
+  width: 50%;
+  bottom: 0px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  background-color: grey;
+}
+nav a {
+  width: 25%;
+  padding: 16px;
+}
+header aside {
+  top: 100%;
+  left: 0px;
+  width: 25%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  background-color: grey;
+  border-right: 1px white solid;
+}
+aside a {
+  width: 100%;
+  padding: 31px;
+  font-size: 150%;
+}
+section {
+  width: 75%;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  height: 547px;
+  background-color: white;
+}
+article {
+  padding: 2%;
+  background-color: darkslategray;
+}
+#a1,
+#a3 {
+  width: 25%;
+}
+#a2 {
+  width: 50%;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  border-left: 1px white solid;
+  border-right: 1px white solid;
+}
+#a2 a {
+  width: 40%;
+  height: 30%;
+  border: 1px white solid;
+  background-color: grey;
+}
+#a2 a:hover {
+  color: black;
+  background-color: aliceblue;
+}
+#a2 img {
+  width: 90%;
+  height: 80%;
+  background-color: beige;
+}
+footer {
+  width: 100%;
+  clear: both;
+  height: 120px;
+  display: block;
+
+  background-color: black;
+}
+@media screen and (max-width: 900px) {
+  header #Nicon {
+    display: block;
+  }
+  header aside {
+    display: none;
+  }
+  #Nicon:hover + #SideNav {
+    width: 30%;
+    top: 70%;
+    display: flex;
+  }
+  #SideNav:hover {
+    width: 30%;
+    top: 70%;
+    display: flex;
+  }
+  section {
+    width: 100%;
+    height: 80%;
+  }
+  #a1 {
+    width: 25%;
+  }
+  #a2 {
+    width: 75%;
+  }
+  #a3 {
+    width: 100%;
+  }
+  #topnav {
+    right: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header #Nicon {
+    display: block;
+  }
+  header aside {
+    display: none;
+  }
+  #Nicon:hover + #SideNav {
+    top: 70%;
+    width: 30%;
+    display: flex;
+  }
+  #SideNav:hover {
+    top: 70%;
+    width: 30%;
+    display: flex;
+  }
+  section {
+    flex-direction: column;
+    width: 100%;
+    height: 1120px;
+  }
+  #a1,
+  #a2,
+  #a3 {
+    width: 100%;
+    text-align: justify;
+    background-color: darkslategray;
+  }
+  #a2 {
+    flex-basis: 50%;
+    display: flex;
+  }
+  #a1,
+  #a3 {
+    flex-basis: 24.7%;
+    padding: 10%;
+  }
+
+  #topnav {
+    right: 0px;
+  }
+}

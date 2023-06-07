@@ -1,0 +1,51 @@
+/* 
+ Holly grail div {
+  width: 80%;
+  height: 800px;
+  margin: 0px auto;
+}
+header,
+footer {
+  background-color: blue;
+  height: 150px;
+}
+footer {
+  clear: both;
+}
+section {
+  float: left;
+  width: 24%;
+  height: 500px;
+  background-color: blueviolet;
+}
+#s1 {
+  width: 50%;
+  background-color: brown;
+}
+nav {
+  width: 98%;
+  margin: auto;
+} 
+*/
+
+/* 
+flex container .flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  order: 4;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: black;
+}
+
+.flex-container > a {
+  text-decoration: none;
+  background-color: aqua;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+} */

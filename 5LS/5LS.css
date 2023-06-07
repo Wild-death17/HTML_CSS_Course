@@ -1,0 +1,49 @@
+/* כוכבית מתייחס לכל התגיות בדף */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+div,
+section {
+  padding: 20px;
+  color: aqua;
+  height: 150px;
+  width: 150px;
+  background-color: violet;
+  margin: 50px;
+  padding-left: 100;
+
+  border-top: solid 1px black;
+  border-right: dotted 1px #000;
+  border-bottom: dashed 1px rgba(0, 0, 0, 0);
+  border-left: double 1px rgb(255, 255, 255);
+  border-width: 5px (top) 10px (right) 15px (bottom) 20px (left);
+  line-height: 100px;
+}
+span {
+  margin: 60px;
+  padding: 15px;
+  background-color: lightgreen;
+  color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+article {
+  margin: 60px;
+  padding-left: 20px;
+  width: 100px;
+  background-color: lightgreen;
+  color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 900;
+  direction: rtl;
+  letter-spacing: 2;
+  text-align: center;
+  word-spacing: 50px;
+}

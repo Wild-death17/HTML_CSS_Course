@@ -1,0 +1,105 @@
+body {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+section,
+div {
+  width: 50%;
+  background-color: red;
+  height: 100px;
+}
+
+#s2 {
+  background-color: yellow;
+}
+#s3 {
+  border-bottom: black 1px solid;
+}
+.square {
+  height: 150px;
+  width: 150px;
+  background-color: brown;
+}
+section.square {
+  border-bottom: black solid 1px;
+}
+div p {
+  /* מישהו שנמצא בתוך מישהו */
+  font-size: larger;
+}
+div > p {
+  /* מישהו שהוא דור ראשון */
+  color: violet;
+}
+p + p {
+  /* מישהו שנמצא ישירות אחרי מישהו */
+  font-size: 20px;
+}
+p ~ p {
+  /* מישהו שנמצא אחרי מישהו לא משנה המרחק */
+  font-size: 20px;
+}
+p {
+  background-color: aquamarine;
+}
+[class] {
+  background-color: grey;
+}
+.div1 {
+  background-color: greenyellow;
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.div2 {
+  background-color: blue;
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+}
+.div3 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.div4 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+a {
+  background-color: chartreuse;
+  width: 200px;
+  height: 200px;
+  border-right: 1px;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: inline-block;
+}
+nav {
+  background-color: red;
+}
+nav {
+  background-color: chartreuse;
+}
+#a1 {
+  background-color: white;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 250px;
+}
+#a2 {
+  background-color: white;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  left: 250px;
+}

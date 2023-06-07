@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ans2</title>
+    <link rel="stylesheet" href="includes/ans2.css" />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      #wrapper {
+        width: 1000px;
+        height: 1300px;
+        margin: 0px auto;
+      }
+
+      nav {
+        background-color: #417297;
+        width: 200px;
+        height: 1300px;
+        border-right: 1px solid white;
+        float: left;
+      }
+      section {
+        background-color: #417297;
+        width: 800px;
+        height: 1300px;
+        display: block;
+        float: left;
+        position: relative;
+      }
+
+      aside {
+        position: relative;
+        background-color: #417297;
+        border-bottom: 1px solid white;
+        border-left: 1px solid white;
+        float: right;
+        width: 350px;
+        height: 350px;
+      }
+      #box1 {
+        display: inline-block;
+        background-color: white;
+        width: 350px;
+        height: 600px;
+        position: absolute;
+        bottom: 5%;
+        right: 10%;
+      }
+      #box2,
+      #box3 {
+        margin-top: 20px;
+        display: block;
+        width: 80px;
+        height: 100px;
+        background-color: white;
+        position: relative;
+        top: 80px;
+        left: 200px;
+      }
+    </style>
+  </head>
+  <body id="page2">
+    <div id="wrapper">
+      <nav></nav>
+      <section>
+        <article id="box1"></article>
+        <aside>
+          <article id="box2"></article>
+          <article id="box3"></article>
+        </aside>
+      </section>
+    </div>
+  </body>
+</html>

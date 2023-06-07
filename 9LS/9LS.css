@@ -1,0 +1,43 @@
+#wrapper {
+  margin: 0px auto;
+  width: 70%;
+}
+#topnav {
+  overflow: hidden;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  color: aliceblue;
+  float: left;
+  display: block;
+  padding: 30px 0px;
+  width: 25%;
+}
+a:hover {
+  background-color: blue;
+}
+#h1 {
+  display: block;
+  background-color: grey;
+  height: 200px;
+}
+
+#navicon div {
+  display: none;
+  width: 40px;
+  margin-top: 5px;
+  height: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  a {
+    float: none;
+    width: 100%;
+    display: none;
+  }
+  #navicon div {
+    display: block;
+  }
+}

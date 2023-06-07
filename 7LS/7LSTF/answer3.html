@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ans3</title>
+  </head>
+  <head>
+    <style>
+      .wrapper {
+        margin: 0px auto;
+        padding: 0px auto;
+        width: 1000px;
+      }
+      .wrapper header {
+        width: 1000px;
+        height: 150px;
+        background-color: #417297;
+        position: fixed;
+        top: 0px;
+        z-index: 100;
+        border-bottom: 1px white solid;
+      }
+      .wrapper section {
+        box-sizing: border-box;
+        background-color: #417297;
+        float: left;
+        width: 800px;
+        height: 1500px;
+        border-right: 1px white solid;
+        position: relative;
+      }
+      #box1 {
+        position: relative;
+        top: 15%;
+        left: 15%;
+        width: 250px;
+        height: 180px;
+        background-color: white;
+      }
+      #box2 {
+        position: absolute;
+        bottom: 5%;
+        right: 20%;
+        width: 250px;
+        height: 180px;
+        background-color: white;
+      }
+
+      .wrapper aside {
+        box-sizing: border-box;
+        float: right;
+        width: 200px;
+        height: 1500px;
+        background-color: #417297;
+      }
+      footer {
+        clear: both;
+        width: 1000px;
+        height: 150px;
+        background-color: #417297;
+        border-top: 1px white solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header></header>
+      <section>
+        <article id="box1"></article>
+        <article id="box2"></article>
+      </section>
+      <aside></aside>
+      <footer></footer>
+    </div>
+  </body>
+</html>

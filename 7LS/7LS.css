@@ -1,0 +1,15 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  background-color: aquamarine;
+}
+section {
+  width: 100%;
+  height: 400px;
+  background-color: blue;
+}
+div {
+  position: sticky;
+  background-color: black;
+}
